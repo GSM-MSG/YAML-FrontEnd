@@ -1,0 +1,49 @@
+.page {
+    margin-top: 35px;
+}  
+.main {
+    position: fixed;
+    left: 320px;
+    right: 60px;
+    height: 650px;
+    border-radius: 20px;
+    background-color: white;
+}
+.nav {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    width: 220px;
+    height: 650px;
+    margin-left: 60px;
+    position: fixed;
+}
+.nav div {
+    margin-top: 70px;
+    font-weight: bolder;
+    text-align: center;
+}
+.Nav_btn {
+    text-align: left;
+    position: relative;
+    display: flex;
+    left: 20%;
+}
+.Nav_btn img {
+    margin-top: 2px;
+    margin-right: 10px;
+}
+.Nav_btn .span_box  {
+    left: 0;
+    margin-top: 5px;
+}
+.Nav_btn .span_box span {
+    font-size: 18px;
+    color: #999;
+}
+
+
+.YAML {
+    font-size: 30px;
+    color: #0da2a5;
+}

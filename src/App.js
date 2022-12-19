@@ -1,19 +1,20 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 
-import Page from './components/page';
 import Intropage from './components/intropage'
-import Home from './components/home';
-import Major from './components/major';
-import Humanities from './components/humanities';
-import Foreign from './components/foreign';
+
+import Page from './Routes/page';
+import Home from './Routes/home';
+import Major from './Routes/major';
+import Humanities from './Routes/humanities';
+import Foreign from './Routes/foreign';
 
 function App() {
   return (
     <div className='App'>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Navigate to='/home' replace={true} />} />
+          <Route path='*' element={<Navigate to='/home' replace={true} />} />
           <Route path='/intro' element={<Intropage />} />
           <Route path='/home' element={<><Page /><Home /></>} />
           <Route path='/major' element={<><Page /><Major /></>} />

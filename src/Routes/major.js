@@ -2,7 +2,7 @@ import React from "react";
 
 function Major() {
   return <div className="major">
-    major
+    전공
   </div>;
 }
 

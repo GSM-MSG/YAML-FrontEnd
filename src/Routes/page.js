@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
+import "../style/routes.css"
 
 function Page() {
   return <div className="page">
