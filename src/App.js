@@ -13,7 +13,7 @@ function App() {
     <div className='App'>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Navigate to='/home' replace={true} />} />
+          <Route path='*' element={<Navigate to='/home' replace={true} />} />
           <Route path='/intro' element={<Intropage />} />
           <Route path='/home' element={<><Page /><Home /></>} />
           <Route path='/major' element={<><Page /><Major /></>} />
