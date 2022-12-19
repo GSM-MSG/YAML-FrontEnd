@@ -1,17 +1,18 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import './App.css';
 
+import Page from './components/page';
 import Intropage from './components/intropage'
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
+    <div className='App'>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Intropage />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Page />
     </div>
   );
 }
