@@ -30,7 +30,7 @@ function Nav() {
           </div>
         </div>
       </Link>
-      <Link to='foreign'>
+      <Link to='/foreign'>
         <div>
           <img src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351296288792607/Vector-1.png" alt="외국어" />
           <div>

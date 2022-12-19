@@ -1,8 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Page from './components/page';
 import Intropage from './components/intropage'
+import Home from './components/home';
+import Major from './components/major';
+import Humanities from './components/humanities';
+import Foreign from './components/foreign';
 
 function App() {
   return (
@@ -10,7 +14,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/intro' element={<Intropage />} />
-          <Route path='/home' element={<Page />} />
+          <Route path='/home' element={<><Page /><Home /></>} />
+          <Route path='/major' element={<><Page /><Major /></>} />
+          <Route path='/humanities' element={<><Page /><Humanities /></>} />
+          <Route path='/foreign' element={<><Page /><Foreign /></>} />
         </Routes>
       </BrowserRouter>
     </div>
