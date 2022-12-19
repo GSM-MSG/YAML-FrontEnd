@@ -7,12 +7,12 @@ import Intropage from './components/intropage'
 function App() {
   return (
     <div className='App'>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Intropage />} />
+          <Route path='/intro' element={<Intropage />} />
+          <Route path='/home' element={<Page />} />
         </Routes>
-      </BrowserRouter> */}
-      <Page />
+      </BrowserRouter>
     </div>
   );
 }
