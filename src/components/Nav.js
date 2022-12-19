@@ -6,7 +6,10 @@ function Nav() {
     <div>
       <span className="YAML">YAML</span>
       <div>
-        <span>홈</span>
+        <img height={'20px'} src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351295475097640/Vector-3.png" />
+        <div>
+          <span>홈</span>
+        </div>
       </div>
       <div>
         <span>전공</span>
