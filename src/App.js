@@ -8,6 +8,7 @@ import Home from './Routes/home';
 import Major from './Routes/major';
 import Humanities from './Routes/humanities';
 import Foreign from './Routes/foreign';
+import Nav from './Routes/Nav';
 
 function App() {
   return (
@@ -16,13 +17,20 @@ function App() {
         <Routes>
           <Route path='*' element={<Navigate to='/home' replace={true} />} />
           <Route path='/intro' element={<Intropage />} />
-          <Route path='/home' element={<><Page /><Home /></>} />
+          <Route path='/home' element={<>
+            <div className="page">
+              <Nav />
+              <div className="main">
+                <Home />
+              </div>
+            </div>
+          </>} />
           <Route path='/major' element={<><Page /><Major /></>} />
           <Route path='/humanities' element={<><Page /><Humanities /></>} />
           <Route path='/foreign' element={<><Page /><Foreign /></>} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </div >
   );
 }
 
