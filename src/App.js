@@ -19,15 +19,36 @@ function App() {
           <Route path='/intro' element={<Intropage />} />
           <Route path='/home' element={<>
             <div className="page">
-              <Nav />
+              <Nav home={true} major={false} humanities={false} Foreign={false} />
               <div className="main">
                 <Home />
               </div>
             </div>
           </>} />
-          <Route path='/major' element={<><Page /><Major /></>} />
-          <Route path='/humanities' element={<><Page /><Humanities /></>} />
-          <Route path='/foreign' element={<><Page /><Foreign /></>} />
+          <Route path='/major' element={<>
+            <div className="page">
+              <Nav home={false} major={true} humanities={false} Foreign={false} />
+              <div className="main">
+                <Major />
+              </div>
+            </div>
+          </>} />
+          <Route path='/humanities' element={<>
+            <div className="page">
+              <Nav home={false} major={false} humanities={true} Foreign={false} />
+              <div className="main">
+                <Humanities />
+              </div>
+            </div>
+          </>} />
+          <Route path='/foreign' element={<>
+            <div className="page">
+              <Nav home={false} major={false} humanities={false} Foreign={true} />
+              <div className="main">
+                <Foreign />
+              </div>
+            </div>
+          </>} />
         </Routes>
       </BrowserRouter>
     </div >

@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return <div className="home">
-    홈
+    <div style={{ backgroundColor: '#8dd5d7', width: '100%', height: '450px', borderRadius: '20px 20px 0px 225px' }} />
   </div>;
 }
 
