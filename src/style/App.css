@@ -13,6 +13,7 @@ a {
 }
 
 
+/* intro page */
 .intro-box {
   position: relative;
   margin: 180px auto;
@@ -56,4 +57,20 @@ a {
   font-size: 1rem;
   font-weight: bold;
   color: #0C5CD3;
+}
+
+
+/* home page */
+.thema-charic {
+  width: 350px;
+  top: 80px;
+  margin-left: 750px;
+  position: fixed;
+  z-index: 1;
+}
+.thema-question {
+  width: 550px;
+  top: 50px;
+  margin-left: 200px;
+  position: fixed;
 }

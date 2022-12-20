@@ -1,8 +1,10 @@
 .page {
     margin-top: 35px;
+    padding: 0;
 }  
 .main {
-    position: fixed;
+    position: relative;
+    width: 75%;
     left: 320px;
     right: 60px;
     height: 650px;
@@ -28,6 +30,11 @@
     position: relative;
     display: flex;
     left: 20%;
+    width: 100px;
+    outline: none;
+}
+.Nav_btn:focus {
+    outline: none;
 }
 .Nav_btn img {
     margin-top: 2px;

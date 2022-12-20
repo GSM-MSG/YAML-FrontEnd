@@ -1,8 +1,10 @@
 import React from "react";
+import Homethema from '../components/homethema';
+
 
 function Home() {
   return <div className="home">
-    홈
+    <Homethema />
   </div>;
 }
 

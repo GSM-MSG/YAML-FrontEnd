@@ -28,7 +28,7 @@ function Nav() {
           <div className="span_box">
             <span>인문인성</span>
           </div>
-        </div>
+        </div>  
       </Link>
       <Link to='/foreign'>
         <div className="Nav_btn">
