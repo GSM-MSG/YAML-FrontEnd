@@ -5,9 +5,14 @@ import Intropage from './components/intropage'
 
 import Home from './Routes/home';
 import Major from './Routes/major';
-import Humanities from './Routes/humanities';
 import Foreign from './Routes/foreign';
 import Nav from './Routes/Nav';
+
+import Award from './Routes/Award';
+import BookActive from './Routes/BookActive';
+import Volunteer from './Routes/Volunteer';
+import Certification from './Routes/Certification';
+import PE from './Routes/PE';
 
 function App() {
   return (
@@ -32,14 +37,49 @@ function App() {
               </div>
             </div>
           </>} />
-          <Route path='/humanities' element={<>
+
+          <Route path='/humanities' element={<Navigate to='/humanities/award' replace={true} />} />
+          <Route path='/humanities/award' element={<>
             <div className="page">
               <Nav home={false} major={false} humanities={true} Foreign={false} Award={true} BookActive={false} Volunteer={false} Certification={false} PE={false} />
               <div className="main">
-                <Humanities />
+                <Award />
               </div>
             </div>
           </>} />
+          <Route path='/humanities/bookactive' element={<>
+            <div className="page">
+              <Nav home={false} major={false} humanities={true} Foreign={false} Award={false} BookActive={true} Volunteer={false} Certification={false} PE={false} />
+              <div className="main">
+                <BookActive />
+              </div>
+            </div>
+          </>} />
+          <Route path='/humanities/volunteer' element={<>
+            <div className="page">
+              <Nav home={false} major={false} humanities={true} Foreign={false} Award={false} BookActive={false} Volunteer={true} Certification={false} PE={false} />
+              <div className="main">
+                <Volunteer />
+              </div>
+            </div>
+          </>} />
+          <Route path='/humanities/certification' element={<>
+            <div className="page">
+              <Nav home={false} major={false} humanities={true} Foreign={false} Award={false} BookActive={false} Volunteer={false} Certification={true} PE={false} />
+              <div className="main">
+                <Certification />
+              </div>
+            </div>
+          </>} />
+          <Route path='/humanities/pe' element={<>
+            <div className="page">
+              <Nav home={false} major={false} humanities={true} Foreign={false} Award={false} BookActive={false} Volunteer={false} Certification={false} PE={true} />
+              <div className="main">
+                <PE />
+              </div>
+            </div>
+          </>} />
+
           <Route path='/foreign' element={<>
             <div className="page">
               <Nav home={false} major={false} humanities={false} Foreign={true} />

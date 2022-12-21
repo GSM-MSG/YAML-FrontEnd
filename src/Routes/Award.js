@@ -2,7 +2,7 @@ import React from "react";
 
 function Award() {
   return <div className="Award">
-    qwerwe
+    Award
   </div>;
 }
 
