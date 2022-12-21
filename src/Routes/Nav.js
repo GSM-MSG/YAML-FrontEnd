@@ -37,15 +37,24 @@ function Nav(props) {
       </Link>
       <Link to='/humanities'>
         {!props.humanities && <div className="Nav_btn">
-          <img src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351295072452668/Vector.png" alt="인문인성" />
+          <img src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351295072452668/Vector.png" height={'24px'} alt="인문인성" />
           <div className="span_box">
-            <span>인문인성</span>
+            <span>인문/인성</span>
           </div>
         </div>}
-        {props.humanities && <div className="Nav_btn_act">
-          <img src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351295072452668/Vector.png" alt="인문인성" />
-          <div className="span_box">
-            <span>인문인성</span>
+        {props.humanities && <div className="Nav_btn_act" style={{ display: 'block' }}>
+          <div className="HumanitiesParent">
+            <img src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351295072452668/Vector.png" alt="인문인성" />
+            <div className="span_box">
+              <span>인문/인성</span>
+            </div>
+          </div>
+          <div className="Humanities">
+            <p>수상경력</p>
+            <p>독서활동</p>
+            <p>봉사활동</p>
+            <p>자격증</p>
+            <p>체육활동</p>
           </div>
         </div>}
       </Link>

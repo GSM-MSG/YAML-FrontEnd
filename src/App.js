@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 
 import Intropage from './components/intropage'
 
-import Page from './Routes/page';
 import Home from './Routes/home';
 import Major from './Routes/major';
 import Humanities from './Routes/humanities';
@@ -35,7 +34,7 @@ function App() {
           </>} />
           <Route path='/humanities' element={<>
             <div className="page">
-              <Nav home={false} major={false} humanities={true} Foreign={false} />
+              <Nav home={false} major={false} humanities={true} Foreign={false} Award={true} BookActive={false} Volunteer={false} Certification={false} PE={false} />
               <div className="main">
                 <Humanities />
               </div>
