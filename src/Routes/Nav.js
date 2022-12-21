@@ -33,7 +33,7 @@ function Nav(props) {
         </div>
         }
       </Link>
-      <Link to='/humanities'>
+      <Link to='/humanities/award'>
         {!props.humanities ? <div className="Nav_btn">
           <img src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351295072452668/Vector.png" height={'22px'} alt="인문인성" />
           <div className="span_box">
