@@ -92,6 +92,46 @@
     font-weight: bolder;
     color: #0da2a5;
 }
+.BookActive{
+    height: 100%;
+}
+.BookActive .outsideDiv{
+    position: relative;
+    margin: 40px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #DFEDEF;
+    font-family: 'Nanum Gothic', sans-serif;
+    height: 87%;
+}
+.BookActive .outsideDiv label{
+    position: absolute;
+    bottom: 0;
+}
+.BookActive .outsideDiv .innerDiv{
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+.BookActive .outsideDiv .innerDiv .header{
+    display: flex;
+}
+.BookActive .outsideDiv .innerDiv .header p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #042434;
+}
+.BookActive .outsideDiv .innerDiv .header button{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    position: absolute;
+    right: 120px;
+    font-weight: bolder;
+    color: #03888F;
+}
 
 .YAML {
     font-size: 30px;
