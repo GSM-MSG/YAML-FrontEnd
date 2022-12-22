@@ -105,9 +105,25 @@
     font-family: 'Nanum Gothic', sans-serif;
     height: 87%;
 }
-.BookActive .outsideDiv label{
+.BookActive .outsideDiv .number{
     position: absolute;
-    bottom: 0;
+    left: 45%;
+    right: 45%;
+    bottom: 3%;
+}
+.BookActive .outsideDiv .add{
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+    border: 1px solid #62a3a7;
+    background-color: #62a3a7;
+    color: white;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 0px;
+    margin-right: 10px;
+    font-weight: bolder;
 }
 .BookActive .outsideDiv .innerDiv{
     position: relative;
@@ -152,6 +168,14 @@
     height: 60px;
     background-color: white;
 }
+.BookActiveContent .ON{
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 3px 15px 0px rgb(0, 0, 0, 40%);
+}
 .BookActiveContent .checkbox{
     margin-left: 5px;
     position: relative;
@@ -167,7 +191,8 @@
     background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' rx='10' fill='%2361C7C9'/%3E%3Cpath d='M12 20.5L18 26.5L27 13' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");;
 }
 .BookActiveContent label{
-    position: relative;
+    position: absolute;
+    bottom: 0;
     top: 35%;
     margin-left: 50px;
 }
@@ -176,12 +201,23 @@
     top: 10px;
     right: 0;
 }
+.BookActiveContent div .about{
+    border: 1px solid #075061;
+    background-color: white;
+    color: #5c8c97;
+}
+.BookActiveContent div .delete{
+    border: 1px solid #62a3a7;
+    background-color: #62a3a7;
+    color: white;
+}
 .BookActiveContent div button{
     width: 80px;
     border-radius: 10px;
     border: none;
-    padding: 10px 0px;
+    padding: 8px 0px;
     margin-right: 10px;
+    font-weight: bolder;
 }
 
 .YAML {

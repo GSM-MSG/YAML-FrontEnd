@@ -2,13 +2,13 @@ import React, { useState } from "react";
 
 function BookActiveContent(props) {
   const [checked, setChecked] = useState(false);
-  return <div className="BookActiveContent">
-    {/* <input type='checkbox' onClick={(e) => { setChecked(e.target.checked); }} /> */}
+  return <div className={"BookActiveContent"}>
+    {checked && <div className='ON'></div>}
     {checked ? <div onClick={() => setChecked(() => !checked)} className='checkbox_on' /> : <div onClick={() => setChecked(() => !checked)} className='checkbox' />}
-    <label>{checked ? 'true' : 'false'}</label>
+    <label>{props.text}</label>
     {checked && <div>
-      <button>상세보기</button>
-      <button>삭제</button>
+      <button className="about">상세보기</button>
+      <button className="delete">삭제</button>
     </div>}
   </div>;
 }
