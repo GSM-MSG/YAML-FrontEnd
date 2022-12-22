@@ -143,6 +143,7 @@
     top: 20px;
 }
 .BookActiveContent{
+    display: flex;
     position: relative;
     border-radius: 10px;
     margin-bottom: 8px;
@@ -150,11 +151,36 @@
     height: 60px;
     background-color: white;
 }
-.BookActiveContent input[type="checkbox" i]{
+.BookActiveContent .checkbox{
     margin-left: 5px;
-    height: 70%;
-    zoom: 2.6;
-    outline: none;
+    position: relative;
+    width: 42px;
+    height: 42px;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='42' viewBox='0 0 42 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='40' height='40' rx='10' fill='white' stroke='%23116174' stroke-opacity='0.33'/%3E%3C/svg%3E%0A");
+}
+.BookActiveContent .checkbox_on{
+    margin-left: 5px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' rx='10' fill='%2361C7C9'/%3E%3Cpath d='M12 20.5L18 26.5L27 13' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");;
+}
+.BookActiveContent label{
+    position: relative;
+    top: 35%;
+    margin-left: 50px;
+}
+.BookActiveContent div{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.BookActiveContent div button{
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0px;
+    margin-right: 10px;
 }
 
 .YAML {
