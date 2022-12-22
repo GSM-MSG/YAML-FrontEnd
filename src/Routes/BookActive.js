@@ -6,7 +6,7 @@ function BookActive() {
       <div className="innerDiv">
         <div className="header">
           <p>독서활동</p>
-          <button>총점수</button>
+          <div>총점수</div>
         </div>
       </div>
       <label>숫자</label>
