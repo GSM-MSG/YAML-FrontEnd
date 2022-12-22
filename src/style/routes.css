@@ -1,8 +1,10 @@
 .page {
     margin-top: 35px;
+    padding: 0;
 }  
 .main {
-    position: fixed;
+    position: relative;
+    width: 75%;
     left: 320px;
     right: 60px;
     height: 650px;
