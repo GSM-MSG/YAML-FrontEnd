@@ -8,11 +8,11 @@ import Major from './Routes/major';
 import Foreign from './Routes/foreign';
 import Nav from './Routes/Nav';
 
-import Award from './Routes/Award';
-import BookActive from './Routes/BookActive';
-import Volunteer from './Routes/Volunteer';
-import Certification from './Routes/Certification';
-import PE from './Routes/PE';
+import Award from './Routes/humanities/Award';
+import BookActive from './Routes/humanities/BookActive';
+import Volunteer from './Routes/humanities/Volunteer';
+import Certification from './Routes/humanities/Certification';
+import PE from './Routes/humanities/PE';
 
 function App() {
   return (
