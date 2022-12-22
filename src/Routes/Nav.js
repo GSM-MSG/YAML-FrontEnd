@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import "../style/routes.css"
+import "../style/routes.scss";
 
 function Nav(props) {
   return <nav className="nav">
@@ -19,16 +19,35 @@ function Nav(props) {
           </div>
         </div>}
       </Link>
-      <Link to='/major'>
+      <Link to='/major/award'>
         {!props.major ? <div className="Nav_btn">
           <img src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351295902924871/Vector-2.png" alt="전공" />
           <div className="span_box">
             <span>전공</span>
           </div>
-        </div> : <div className="Nav_btn_act">
-          <img src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351295902924871/Vector-2.png" alt="전공" />
-          <div className="span_box">
-            <span>전공</span>
+        </div> : <div className="Nav_btn_act" style={{ display: 'block' }}>
+          <div className="listsParent">
+            <img src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351295902924871/Vector-2.png" alt="전공" />
+            <div className="span_box">
+              <span>전공</span>
+            </div>
+          </div>
+          <div className="lists">
+            <Link to='/major/award'>
+              {props.Award ? <p style={{ color: '#0da2a5' }}>수상경력</p> : <p style={{ color: '#999' }}>수상경력</p>}
+            </Link>
+            <Link to='/major/education'>
+              {props.Education ? <p style={{ color: '#0da2a5' }}>대회 및 교육참가</p> : <p style={{ color: '#999' }}>대회 및 교육참가</p>}
+            </Link>
+            <Link to='/major/circle'>
+              {props.Circle ? <p style={{ color: '#0da2a5' }}>전공동아리</p> : <p style={{ color: '#999' }}>전공동아리</p>}
+            </Link>
+            <Link to='/major/certification'>
+              {props.Certification ? <p style={{ color: '#0da2a5' }}>자격증</p> : <p style={{ color: '#999' }}>자격증</p>}
+            </Link>
+            <Link to='/major/topcit'>
+              {props.Topcit ? <p style={{ color: '#0da2a5' }}>TOPCIT</p> : <p style={{ color: '#999' }}>TOPCIT</p>}
+            </Link>
           </div>
         </div>
         }
@@ -40,13 +59,13 @@ function Nav(props) {
             <span>인문/인성</span>
           </div>
         </div> : <div className="Nav_btn_act" style={{ display: 'block' }}>
-          <div className="HumanitiesParent">
+          <div className="listsParent">
             <img src="https://cdn.discordapp.com/attachments/1054184662228025354/1054351295072452668/Vector.png" height={'22px'} alt="인문인성" />
             <div className="span_box">
               <span>인문/인성</span>
             </div>
           </div>
-          <div className="Humanities">
+          <div className="lists">
             <Link to='/humanities/award'>
               {props.Award ? <p style={{ color: '#0da2a5' }}>수상경력</p> : <p style={{ color: '#999' }}>수상경력</p>}
             </Link>

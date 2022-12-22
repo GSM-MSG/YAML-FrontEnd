@@ -4,15 +4,20 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Intropage from './components/intropage'
 
 import Home from './Routes/home';
-import Major from './Routes/major';
 import Foreign from './Routes/foreign';
 import Nav from './Routes/Nav';
 
-import Award from './Routes/Award';
-import BookActive from './Routes/BookActive';
-import Volunteer from './Routes/Volunteer';
-import Certification from './Routes/Certification';
-import PE from './Routes/PE';
+import HumanitiesAward from './Routes/humanites/humanitiesAward';
+import BookActive from './Routes/humanites/BookActive';
+import Volunteer from './Routes/humanites/Volunteer';
+import Certification from './Routes/humanites/HumanitiesCertification';
+import PE from './Routes/humanites/PE';
+
+import MajorAward from './Routes/majors/MajorAward';
+import Education from './Routes/majors/Education';
+import MajorCertification from './Routes/majors/MajorCertification';
+import MajorCircle from './Routes/majors/MajorCircle';
+import Topcit from './Routes/majors/Topcit';
 
 function App() {
   return (
@@ -23,33 +28,58 @@ function App() {
           <Route path='/intro' element={<Intropage />} />
           <Route path='/home' element={<>
             <div className="page">
-              <Nav home={true} major={false} humanities={false} Foreign={false} />
+              <Nav home={true} />
               <div className="main">
                 <Home />
               </div>
             </div>
           </>} />
-          <Route path='/major' element={<>
+          <Route path='/major' element={<Navigate to='/major/award' replace={true} />} />
+          <Route path='/major/award' element={<>
             <div className="page">
-              <Nav home={false} major={true} humanities={false} Foreign={false} />
+              <Nav major={true} Award={true} />
               <div className="main">
-                <Major />
+                <MajorAward />
               </div>
             </div>
           </>} />
+          <Route path='/major/education' element={<><div className="page">
+            <Nav major={true} Education={true} />
+            <div className="main">
+              <Education />
+            </div>
+          </div></>} />
+          <Route path='/major/circle' element={<><div className="page">
+            <Nav major={true} Circle={true} />
+            <div className="main">
+              <MajorCircle />
+            </div>
+          </div></>} />
+          <Route path='/major/certification' element={<><div className="page">
+            <Nav major={true} Certification={true} />
+            <div className="main">
+              <MajorCertification />
+            </div>
+          </div></>} />
+          <Route path='/major/topcit' element={<><div className="page">
+            <Nav major={true} Topcit={true} />
+            <div className="main">
+              <Topcit />
+            </div>
+          </div></>} />
 
           <Route path='/humanities' element={<Navigate to='/humanities/award' replace={true} />} />
           <Route path='/humanities/award' element={<>
             <div className="page">
-              <Nav home={false} major={false} humanities={true} Foreign={false} Award={true} BookActive={false} Volunteer={false} Certification={false} PE={false} />
+              <Nav humanities={true} Award={true} />
               <div className="main">
-                <Award />
+                <HumanitiesAward />
               </div>
             </div>
           </>} />
           <Route path='/humanities/bookactive' element={<>
             <div className="page">
-              <Nav home={false} major={false} humanities={true} Foreign={false} Award={false} BookActive={true} Volunteer={false} Certification={false} PE={false} />
+              <Nav humanities={true} BookActive={true} />
               <div className="main">
                 <BookActive />
               </div>
@@ -57,7 +87,7 @@ function App() {
           </>} />
           <Route path='/humanities/volunteer' element={<>
             <div className="page">
-              <Nav home={false} major={false} humanities={true} Foreign={false} Award={false} BookActive={false} Volunteer={true} Certification={false} PE={false} />
+              <Nav humanities={true} Volunteer={true} />
               <div className="main">
                 <Volunteer />
               </div>
@@ -65,7 +95,7 @@ function App() {
           </>} />
           <Route path='/humanities/certification' element={<>
             <div className="page">
-              <Nav home={false} major={false} humanities={true} Foreign={false} Award={false} BookActive={false} Volunteer={false} Certification={true} PE={false} />
+              <Nav humanities={true} Certification={true} />
               <div className="main">
                 <Certification />
               </div>
@@ -73,16 +103,15 @@ function App() {
           </>} />
           <Route path='/humanities/pe' element={<>
             <div className="page">
-              <Nav home={false} major={false} humanities={true} Foreign={false} Award={false} BookActive={false} Volunteer={false} Certification={false} PE={true} />
+              <Nav humanities={true} PE={true} />
               <div className="main">
                 <PE />
               </div>
             </div>
           </>} />
-
           <Route path='/foreign' element={<>
             <div className="page">
-              <Nav home={false} major={false} humanities={false} Foreign={true} />
+              <Nav Foreign={true} />
               <div className="main">
                 <Foreign />
               </div>
