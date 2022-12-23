@@ -12,8 +12,8 @@
     border-radius: 20px;
     background-color: white;
 }
-<<<<<<< HEAD:src/style/routes.css
-.outsideDiv{
+
+.outsideDiv {
     position: relative;
     margin: 40px 50px;
     border: none;
@@ -23,10 +23,6 @@
     height: 87%;
 }
 
-/* Nav */
-=======
-
->>>>>>> 336c98030179e96f88df59471a897e1402c123b4:src/style/routes.scss
 .nav {
     font-family: 'Nanum Gothic', sans-serif;
     background-color: white;
@@ -125,30 +121,13 @@
     color: #0da2a5;
 }
 
-<<<<<<< HEAD:src/style/routes.css
 
 /* BookActive */
-.BookActive{
-    height: 100%;
-}
-.BookActive .outsideDiv .number{
-=======
 .BookActive {
     height: 100%;
 }
 
-.BookActive .outsideDiv {
-    position: relative;
-    margin: 40px 50px;
-    border: none;
-    border-radius: 20px;
-    background-color: #DFEDEF;
-    font-family: 'Nanum Gothic', sans-serif;
-    height: 87%;
-}
-
 .BookActive .outsideDiv .number {
->>>>>>> 336c98030179e96f88df59471a897e1402c123b4:src/style/routes.scss
     position: absolute;
     left: 45%;
     right: 45%;
@@ -286,16 +265,18 @@
 
 
 /* Volunteer */
-.Volunteer{
+.Volunteer {
     height: 100%;
 }
-.Volunteer .outsideDiv .number{
+
+.Volunteer .outsideDiv .number {
     position: absolute;
     left: 45%;
     right: 45%;
     bottom: 3%;
 }
-.Volunteer .outsideDiv .add{
+
+.Volunteer .outsideDiv .add {
     position: absolute;
     right: 40px;
     bottom: 45px;
@@ -309,20 +290,24 @@
     margin-right: 10px;
     font-weight: bolder;
 }
-.Volunteer .outsideDiv .innerDiv{
+
+.Volunteer .outsideDiv .innerDiv {
     position: relative;
     top: 40px;
     left: 50px;
 }
-.Volunteer .outsideDiv .innerDiv .header{
+
+.Volunteer .outsideDiv .innerDiv .header {
     display: flex;
 }
-.Volunteer .outsideDiv .innerDiv .header p{
+
+.Volunteer .outsideDiv .innerDiv .header p {
     font-size: 20px;
     font-weight: bolder;
     color: #042434;
 }
-.Volunteer .outsideDiv .innerDiv .header div{
+
+.Volunteer .outsideDiv .innerDiv .header div {
     margin-top: -5px;
     padding: 10px 0px;
     text-align: center;
@@ -330,20 +315,22 @@
     background-color: white;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 3px 4px 0px rgb(0, 0, 0, 25%);
+    box-shadow: 0px 3px 4px 0px 0, 0, 0, 25%;
     font-size: 14px;
     position: absolute;
     right: 100px;
     font-weight: bolder;
     color: #03888F;
 }
-.Volunteer .outsideDiv .innerDiv .contentBoxes{
+
+.Volunteer .outsideDiv .innerDiv .contentBoxes {
     position: relative;
     margin-right: 100px;
     height: 400px;
     top: 20px;
 }
-.VolunteerContent{
+
+.VolunteerContent {
     display: flex;
     position: relative;
     border-radius: 10px;
@@ -352,50 +339,59 @@
     height: 60px;
     background-color: white;
 }
-.VolunteerContent .ON{
+
+.VolunteerContent .ON {
     position: absolute;
     border-radius: 10px;
     top: 0;
     width: 100%;
     height: 100%;
-    box-shadow: 0px 3px 15px 0px rgb(0, 0, 0, 40%);
+    box-shadow: 0px 3px 15px 0px 0, 0, 0, 40%;
 }
-.VolunteerContent .checkbox{
+
+.VolunteerContent .checkbox {
     margin-left: 5px;
     position: relative;
     width: 42px;
     height: 42px;
     background-image: url("data:image/svg+xml,%3Csvg width='42' height='42' viewBox='0 0 42 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='40' height='40' rx='10' fill='white' stroke='%23116174' stroke-opacity='0.33'/%3E%3C/svg%3E%0A");
 }
-.VolunteerContent .checkbox_on{
+
+.VolunteerContent .checkbox_on {
     margin-left: 5px;
     position: relative;
     width: 40px;
     height: 40px;
-    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' rx='10' fill='%2361C7C9'/%3E%3Cpath d='M12 20.5L18 26.5L27 13' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' rx='10' fill='%2361C7C9'/%3E%3Cpath d='M12 20.5L18 26.5L27 13' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    ;
 }
-.VolunteerContent label{
+
+.VolunteerContent label {
     position: absolute;
     bottom: 0;
     top: 35%;
     margin-left: 50px;
 }
-.VolunteerContent div{
+
+.VolunteerContent div {
     position: absolute;
     top: 10px;
     right: 0;
 }
-.VolunteerContent div .about{
+
+.VolunteerContent div .about {
     border: 1px solid #075061;
     background-color: white;
     color: #5c8c97;
 }
-.VolunteerContent div .delete{
+
+.VolunteerContent div .delete {
     border: 1px solid #62a3a7;
     background-color: #62a3a7;
     color: white;
 }
-.VolunteerContent div button{
+
+.VolunteerContent div button {
     width: 80px;
     border-radius: 10px;
     border: none;

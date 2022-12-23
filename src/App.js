@@ -7,13 +7,6 @@ import Home from './Routes/home';
 import Foreign from './Routes/foreign';
 import Nav from './Routes/Nav';
 
-<<<<<<< HEAD
-import Award from './Routes/humanities/Award';
-import BookActive from './Routes/humanities/BookActive';
-import Volunteer from './Routes/humanities/Volunteer';
-import Certification from './Routes/humanities/Certification';
-import PE from './Routes/humanities/PE';
-=======
 import HumanitiesAward from './Routes/humanites/humanitiesAward';
 import BookActive from './Routes/humanites/BookActive';
 import Volunteer from './Routes/humanites/Volunteer';
@@ -25,7 +18,6 @@ import Education from './Routes/majors/Education';
 import MajorCertification from './Routes/majors/MajorCertification';
 import MajorCircle from './Routes/majors/MajorCircle';
 import Topcit from './Routes/majors/Topcit';
->>>>>>> 336c98030179e96f88df59471a897e1402c123b4
 
 function App() {
   return (
