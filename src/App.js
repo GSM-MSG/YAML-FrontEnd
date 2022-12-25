@@ -8,11 +8,31 @@ import Major from './Routes/major';
 import Foreign from './Routes/foreign';
 import Nav from './Routes/Nav';
 
+<<<<<<< Updated upstream
 import Award from './Routes/Award';
 import BookActive from './Routes/BookActive';
 import Volunteer from './Routes/Volunteer';
 import Certification from './Routes/Certification';
 import PE from './Routes/PE';
+=======
+import Award from './Routes/humanities/Award';
+import BookActive from './Routes/humanities/BookActive';
+import Volunteer from './Routes/humanities/Volunteer';
+import Certification from './Routes/humanities/Certification';
+import PE from './Routes/humanities/PE';
+
+import HumanitiesAward from './Routes/humanites/humanitiesAward';
+// import BookActive from './Routes/humanites/BookActive';
+// import Volunteer from './Routes/humanites/Volunteer';
+// import Certification from './Routes/humanites/HumanitiesCertification';
+// import PE from './Routes/humanites/PE';
+
+import MajorAward from './Routes/majors/MajorAward';
+import Education from './Routes/majors/Education';
+import MajorCertification from './Routes/majors/MajorCertification';
+import MajorCircle from './Routes/majors/MajorCircle';
+import Topcit from './Routes/majors/Topcit';
+>>>>>>> Stashed changes
 
 function App() {
   return (
