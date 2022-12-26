@@ -9,7 +9,7 @@ import Nav from './Routes/Nav';
 
 import HumanitiesAward from './Routes/humanites/humanitiesAward';
 import BookActive from './Routes/humanites/BookActive';
-import Volunteer from './Routes/humanites/Volunteer';
+import Volunteer from './Routes/humanities/Volunteer';
 import Certification from './Routes/humanites/HumanitiesCertification';
 import PE from './Routes/humanites/PE';
 
