@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 function MajorAward(props) {
   return <div className="MajorAward">
@@ -9,9 +9,9 @@ function MajorAward(props) {
           <div className="score">100점</div>
         </div>
         <div className="contentBoxes">
+          <Contents activity='in' headertext='GSM Festival' about='asdfasdf' />
           <Contents activity='in' headertext='GSM Festival' about='' />
-          <Contents activity='in' headertext='GSM Festival' about='' />
-          <Contents activity='in' headertext='GSM Festival' about='' />
+          <Contents activity='out' headertext='구구구' about='와 샌즈' />
           <Contents activity='in' headertext='GSM Festival' about='' />
           <Contents activity='in' headertext='GSM Festival' about='' />
           <Contents activity='in' headertext='GSM Festival' about='' />
@@ -29,22 +29,35 @@ function MajorAward(props) {
 }
 
 function Contents(props) {
-  return <div className="contents">
-    <div className="head">
-      {props.activity === 'in' ? <div className="innerschool">교내</div> : <div className="outofschool">교외</div>}
-      <button>
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  const [toggle, setToggle] = useState(false);
+  return <>
+    {toggle && <div className="background">
+      <div className="whitebox">
+        <button onClick={() => setToggle(false)}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 18L18 6M6 6L18 18" stroke="#858585" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg></button>
+        <div>
+          {props.about}
+        </div>
+      </div>
+    </div>}
+    <div id="contents" onClick={() => setToggle(true)}>
+      <div className="head">
+        {props.activity === 'in' ? <div className="innerschool">교내</div> : <div className="outofschool">교외</div>}
+        <button>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 18L18 6M6 6L18 18" stroke="#858585" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+      <h2>{props.headertext}</h2>
+      <span>서류보기
+        <svg width="15" height="6" viewBox="0 0 15 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M13 5.94445V5.99997H0V4.49997H11.6076L8.93944 1.49824L10.0606 0.501697L14.0606 5.0017L13 5.94445Z" fill="#AEAEAE" />
         </svg>
-      </button>
+      </span>
     </div>
-    <h2>{props.headertext}</h2>
-    <span>서류보기
-      <svg width="15" height="6" viewBox="0 0 15 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M13 5.94445V5.99997H0V4.49997H11.6076L8.93944 1.49824L10.0606 0.501697L14.0606 5.0017L13 5.94445Z" fill="#AEAEAE" />
-      </svg>
-    </span>
-  </div>;
+  </>;
 }
 
 export default MajorAward;

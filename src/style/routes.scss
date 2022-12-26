@@ -454,9 +454,46 @@
           margin-right: 60px;
           margin-bottom: 40px;
           text-align: center;
+
+          svg {
+            padding: 50px 0;
+          }
         }
 
-        .contents {
+        .background {
+          border-radius: 20px;
+          background-color: rgba(#000000, 0.40);
+          position: absolute;
+          top: -80px;
+          left: -70px;
+          right: -30px;
+          height: 650px;
+          z-index: 1;
+          text-align: center;
+
+          .whitebox {
+            position: absolute;
+            right: 32%;
+            margin: 100px auto;
+            background-color: white;
+            width: 35%;
+            height: 450px;
+
+            button {
+              position: relative;
+              top: 15px;
+              right: -170px;
+              background-color: rgba(#000000, 0);
+              border: none;
+            }
+
+            div {
+              padding: 50% 0;
+            }
+          }
+        }
+
+        #contents {
           border: 2px solid #AEAEAE;
           border-radius: 2px;
           width: 210px;
@@ -464,6 +501,16 @@
           box-shadow: 0 3px 20px 0 rgba(#a4a4a4, 0.63);
           margin-right: 60px;
           margin-bottom: 40px;
+          -ms-user-select: none;
+          -moz-user-select: -moz-none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          user-select: none;
+
+          &:active {
+            background-color: rgba(#000000, 0.46);
+          }
+
 
           h2 {
             font-size: 18px;
