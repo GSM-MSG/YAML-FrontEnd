@@ -6,6 +6,7 @@
 }
 body {
   background-color: #DFEDEF;
+  overflow-y: hidden;
 }
 a {
   text-decoration-line: none;

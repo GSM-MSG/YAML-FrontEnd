@@ -9,9 +9,10 @@ function Volunteer(props) {
           <p>봉사활동</p>
         </div>
         <div>
-          <input type="textbox" placeholder="활동명을 입력해주세요"></input>
-          <input type="textbox"></input> <h>시간</h> <button>등록</button>
+          <input className="activeName" type="textbox" placeholder="활동명을 입력해주세요"></input>
+          <input className="hourInput" type="textbox"></input> <h>시간</h> <button>등록</button>
         </div>
+        <div className="scoreBox"><h className="score">100</h>점</div>
         <div className="contentBoxes">
           <VolunteerContent text='가나다라마바사아자차카타파하' />
           <VolunteerContent text='가나다라마바사아자차카타파하' />
@@ -21,7 +22,6 @@ function Volunteer(props) {
           <VolunteerContent text='가나다라마바사아자차카타파하' />
         </div>
       </div>
-      <div>점수</div><div>100 </div>
       <div className="number">1</div>
     </div>
   </div>;
