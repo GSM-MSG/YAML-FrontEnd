@@ -14,10 +14,10 @@
 }
 
 @font-face {
-    font-family: 'Pretendard';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
 .outsideDiv {
@@ -315,35 +315,19 @@
 }
 
 .Volunteer .outsideDiv .innerDiv .header div {
-<<<<<<< HEAD
-    margin-top: -5px;
-    padding: 10px 0px;
-    text-align: center;
-    width: 80px;
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
-    font-size: 14px;
-    position: absolute;
-    right: 100px;
-    font-weight: bolder;
-    color: #03888F;
-=======
   margin-top: -5px;
   padding: 10px 0px;
   text-align: center;
   width: 80px;
   background-color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: 14px;
   position: absolute;
   right: 100px;
   font-weight: bolder;
   color: #03888F;
->>>>>>> 3af015b3c583be2ab686de99701c480c7fef918c
 }
 
 .Volunteer .outsideDiv .innerDiv .contentBoxes {
@@ -354,27 +338,9 @@
 }
 
 .VolunteerContent {
-<<<<<<< HEAD
-    display: flex;
-    position: relative;
-    border-radius: 5px;
-    margin-bottom: 8px;
-    left: 0%;
-    height: 60px;
-    background-color: white;
-}
-
-.VolunteerContent .ON {
-    position: absolute;
-    border-radius: 5px;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.40);
-=======
   display: flex;
   position: relative;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-bottom: 8px;
   left: 0%;
   height: 60px;
@@ -383,12 +349,11 @@
 
 .VolunteerContent .ON {
   position: absolute;
-  border-radius: 10px;
+  border-radius: 5px;
   top: 0;
   width: 100%;
   height: 100%;
   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.40);
->>>>>>> 3af015b3c583be2ab686de99701c480c7fef918c
 }
 
 .VolunteerContent .checkbox {
@@ -400,20 +365,11 @@
 }
 
 .VolunteerContent .checkbox_on {
-<<<<<<< HEAD
-    margin-left: 5px;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' rx='10' fill='%2361C7C9'/%3E%3Cpath d='M12 20.5L18 26.5L27 13' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-=======
   margin-left: 5px;
   position: relative;
   width: 40px;
   height: 40px;
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' rx='10' fill='%2361C7C9'/%3E%3Cpath d='M12 20.5L18 26.5L27 13' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  ;
->>>>>>> 3af015b3c583be2ab686de99701c480c7fef918c
 }
 
 .VolunteerContent label {
@@ -449,61 +405,68 @@
   margin-right: 10px;
   font-weight: bolder;
 }
+
 .Volunteer .outsideDiv .innerDiv input {
-    margin-top: 10px;
-    font-family: "Pretendard";
-    height: 36px;
-    border-radius: 5px;
-    color: #999;
-    border: 1px solid #CDCDCD;
+  margin-top: 10px;
+  font-family: "Pretendard";
+  height: 36px;
+  border-radius: 5px;
+  color: #999;
+  border: 1px solid #CDCDCD;
 
 }
+
 .Volunteer .outsideDiv .innerDiv .activeName {
-    width: 300px;
-    border-radius: 5px;
-    padding: 0 0 0 10px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 0 0 0 10px;
 }
+
 .Volunteer .outsideDiv .innerDiv .hourInput {
-    width: 70px;
-    border-radius: 5px;
-    padding: 0 0 0 10px;
-    margin-left: 20px
+  width: 70px;
+  border-radius: 5px;
+  padding: 0 0 0 10px;
+  margin-left: 20px
 }
+
 .Volunteer .outsideDiv .innerDiv h {
-    font-family: "Pretendard";
-    font-size: 18px;
-    position: relative;
+  font-family: "Pretendard";
+  font-size: 18px;
+  position: relative;
 }
+
 .Volunteer .outsideDiv .innerDiv button {
-    height: 36px;
-    width: 70px;
-    font-family: "Pretendard";
-    font-size: 16px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #519498;
-    border: none;
-    margin-left: 10px;
-    cursor: pointer;
+  height: 36px;
+  width: 70px;
+  font-family: "Pretendard";
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #519498;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
 }
+
 .Volunteer .outsideDiv .innerDiv button:active {
-    background-color: #fff;
-    color: #519498;
+  background-color: #fff;
+  color: #519498;
 }
+
 .Volunteer .outsideDiv .innerDiv .scoreBox {
-    background-color: #fff;
-    width: 80px;
-    height: 32px;
-    position: absolute;
-    z-index: 1;
-    top: -1px;
-    margin-left: 875px;
-    margin-top: 33px;
-    text-align: center;
-    border-radius: 5px;
-    color: #03888F;
-    font-family: "Pretendard";
-    font-size: 18px;
+  background-color: #fff;
+  width: 80px;
+  height: 32px;
+  position: absolute;
+  z-index: 1;
+  top: -1px;
+  margin-left: 875px;
+  margin-top: 33px;
+  text-align: center;
+  border-radius: 5px;
+  color: #03888F;
+  font-family: "Pretendard";
+  font-size: 18px;
 }
 
 
