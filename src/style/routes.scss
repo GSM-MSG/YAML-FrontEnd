@@ -1,16 +1,16 @@
 /* VISUAL */
 .page {
-    margin-top: 35px;
-    padding: 0;
+  margin-top: 35px;
+  padding: 0;
 }
 
 .main {
-    position: absolute;
-    left: 320px;
-    right: 60px;
-    height: 650px;
-    border-radius: 20px;
-    background-color: white;
+  position: absolute;
+  left: 320px;
+  right: 60px;
+  height: 650px;
+  border-radius: 20px;
+  background-color: white;
 }
 
 @font-face {
@@ -21,300 +21,301 @@
 }
 
 .outsideDiv {
-    position: relative;
-    margin: 40px 50px;
-    border: none;
-    border-radius: 20px;
-    background-color: #DFEDEF;
-    font-family: 'Nanum Gothic', sans-serif;
-    height: 87%;
+  position: relative;
+  margin: 40px 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: #DFEDEF;
+  font-family: 'Nanum Gothic', sans-serif;
+  height: 87%;
 }
 
 .nav {
-    font-family: 'Nanum Gothic', sans-serif;
-    background-color: white;
-    border-radius: 20px;
-    width: 220px;
-    height: 650px;
-    margin-left: 60px;
-    position: fixed;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: white;
+  border-radius: 20px;
+  width: 220px;
+  height: 650px;
+  margin-left: 60px;
+  position: fixed;
 }
 
 .nav div {
-    margin-top: 50px;
-    font-weight: bolder;
-    text-align: center;
+  margin-top: 50px;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .Nav_btn {
-    text-align: left;
-    position: relative;
-    display: flex;
-    left: 20%;
-    width: 110px;
+  text-align: left;
+  position: relative;
+  display: flex;
+  left: 20%;
+  width: 110px;
 }
 
 .Nav_btn img {
-    margin-top: 2px;
-    margin-right: 10px;
+  margin-top: 2px;
+  margin-right: 10px;
 }
 
 .Nav_btn .span_box {
-    left: 0;
-    margin-top: 5px;
+  left: 0;
+  margin-top: 5px;
 }
 
 .Nav_btn .span_box span {
-    font-size: 18px;
-    color: #999;
+  font-size: 18px;
+  color: #999;
 }
 
 .Nav_btn_act {
-    text-align: left;
-    position: relative;
-    display: block;
-    left: 20%;
-    width: 110px;
-    display: flex;
+  text-align: left;
+  position: relative;
+  display: block;
+  left: 20%;
+  width: 110px;
+  display: flex;
 }
 
 .Nav_btn_act .listsParent {
-    margin-bottom: 0;
-    height: 24px;
-    display: flex;
+  margin-bottom: 0;
+  height: 24px;
+  display: flex;
 }
 
 .Nav_btn_act .lists {
-    display: block;
-    margin-top: 0px;
+  display: block;
+  margin-top: 0px;
 }
 
 .Nav_btn_act .lists p {
-    margin-left: 34px;
-    text-align: left;
-    margin-top: 15px;
-    width: 105px;
+  margin-left: 34px;
+  text-align: left;
+  margin-top: 15px;
+  width: 105px;
 }
 
 .Nav_btn_act img {
-    margin-top: 2px;
-    margin-right: 10px;
-    color: #042434;
+  margin-top: 2px;
+  margin-right: 10px;
+  color: #042434;
 }
 
 .Nav_btn_act .span_box {
-    left: 0;
-    margin-top: 5px;
+  left: 0;
+  margin-top: 5px;
 }
 
 .Nav_btn_act .span_box span {
-    font-size: 18px;
-    color: #042434;
+  font-size: 18px;
+  color: #042434;
 }
 
 .logout {
-    background-color: 0, 0, 0, 0;
-    border: none;
-    position: absolute;
-    left: 10%;
-    bottom: 2%;
-    display: flex;
+  background-color: 0, 0, 0, 0;
+  border: none;
+  position: absolute;
+  left: 10%;
+  bottom: 2%;
+  display: flex;
 }
 
 .logout span {
-    margin: 3px 5px;
-    font-size: 15px;
-    font-weight: bolder;
-    color: #0da2a5;
+  margin: 3px 5px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #0da2a5;
 }
 
 
 /* BookActive */
 .BookActive {
-    height: 100%;
+  height: 100%;
 }
 
 .BookActive .outsideDiv .number {
-    position: absolute;
-    left: 45%;
-    right: 45%;
-    bottom: 3%;
+  position: absolute;
+  left: 45%;
+  right: 45%;
+  bottom: 3%;
 }
 
 .BookActive .outsideDiv .add {
-    position: absolute;
-    right: 40px;
-    bottom: 45px;
-    border: 1px solid #62a3a7;
-    background-color: #62a3a7;
-    color: white;
-    width: 80px;
-    border-radius: 10px;
-    border: none;
-    padding: 8px 0px;
-    margin-right: 10px;
-    font-weight: bolder;
+  position: absolute;
+  right: 40px;
+  bottom: 45px;
+  border: 1px solid #62a3a7;
+  background-color: #62a3a7;
+  color: white;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 0px;
+  margin-right: 10px;
+  font-weight: bolder;
 }
 
 .BookActive .outsideDiv .innerDiv {
-    position: relative;
-    top: 40px;
-    left: 50px;
+  position: relative;
+  top: 40px;
+  left: 50px;
 }
 
 .BookActive .outsideDiv .innerDiv .header {
-    display: flex;
+  display: flex;
 }
 
 .BookActive .outsideDiv .innerDiv .header p {
-    font-size: 20px;
-    font-weight: bolder;
-    color: #042434;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #042434;
 }
 
 .BookActive .outsideDiv .innerDiv .header div {
-    margin-top: -5px;
-    padding: 10px 0px;
-    text-align: center;
-    width: 80px;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
-    font-size: 14px;
-    position: absolute;
-    right: 100px;
-    font-weight: bolder;
-    color: #03888F;
+  margin-top: -5px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 80px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  position: absolute;
+  right: 100px;
+  font-weight: bolder;
+  color: #03888F;
 }
 
 .BookActive .outsideDiv .innerDiv .contentBoxes {
-    position: relative;
-    margin-right: 100px;
-    height: 400px;
-    top: 20px;
+  position: relative;
+  margin-right: 100px;
+  height: 400px;
+  top: 20px;
 }
 
 .BookActiveContent {
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-    margin-bottom: 8px;
-    left: 0%;
-    height: 60px;
-    background-color: white;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  left: 0%;
+  height: 60px;
+  background-color: white;
 }
 
 .BookActiveContent .ON {
-    position: absolute;
-    border-radius: 10px;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.40);
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.40);
 }
 
 .BookActiveContent .checkbox {
-    margin-left: 5px;
-    position: relative;
-    width: 42px;
-    height: 42px;
-    background-image: url("data:image/svg+xml,%3Csvg width='42' height='42' viewBox='0 0 42 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='40' height='40' rx='10' fill='white' stroke='%23116174' stroke-opacity='0.33'/%3E%3C/svg%3E%0A");
+  margin-left: 5px;
+  position: relative;
+  width: 42px;
+  height: 42px;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='42' viewBox='0 0 42 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='40' height='40' rx='10' fill='white' stroke='%23116174' stroke-opacity='0.33'/%3E%3C/svg%3E%0A");
 }
 
 .BookActiveContent .checkbox_on {
-    margin-left: 5px;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' rx='10' fill='%2361C7C9'/%3E%3Cpath d='M12 20.5L18 26.5L27 13' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-    ;
+  margin-left: 5px;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' rx='10' fill='%2361C7C9'/%3E%3Cpath d='M12 20.5L18 26.5L27 13' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  ;
 }
 
 .BookActiveContent label {
-    position: absolute;
-    bottom: 0;
-    top: 35%;
-    margin-left: 50px;
+  position: absolute;
+  bottom: 0;
+  top: 35%;
+  margin-left: 50px;
 }
 
 .BookActiveContent div {
-    position: absolute;
-    top: 10px;
-    right: 0;
+  position: absolute;
+  top: 10px;
+  right: 0;
 }
 
 .BookActiveContent div .about {
-    border: 1px solid #075061;
-    background-color: white;
-    color: #5c8c97;
+  border: 1px solid #075061;
+  background-color: white;
+  color: #5c8c97;
 }
 
 .BookActiveContent div .delete {
-    border: 1px solid #62a3a7;
-    background-color: #62a3a7;
-    color: white;
+  border: 1px solid #62a3a7;
+  background-color: #62a3a7;
+  color: white;
 }
 
 .BookActiveContent div button {
-    width: 80px;
-    border-radius: 10px;
-    border: none;
-    padding: 8px 0px;
-    margin-right: 10px;
-    font-weight: bolder;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 0px;
+  margin-right: 10px;
+  font-weight: bolder;
 }
 
 .YAML {
-    font-size: 30px;
-    color: #0da2a5;
+  font-size: 30px;
+  color: #0da2a5;
 }
 
 
 /* Volunteer */
 .Volunteer {
-    height: 100%;
+  height: 100%;
 }
 
 .Volunteer .outsideDiv .number {
-    position: absolute;
-    left: 45%;
-    right: 45%;
-    bottom: 3%;
+  position: absolute;
+  left: 45%;
+  right: 45%;
+  bottom: 3%;
 }
 
 .Volunteer .outsideDiv .add {
-    position: absolute;
-    right: 40px;
-    bottom: 45px;
-    border: 1px solid #62a3a7;
-    background-color: #62a3a7;
-    color: white;
-    width: 80px;
-    border-radius: 10px;
-    border: none;
-    padding: 8px 0px;
-    margin-right: 10px;
-    font-weight: bolder;
+  position: absolute;
+  right: 40px;
+  bottom: 45px;
+  border: 1px solid #62a3a7;
+  background-color: #62a3a7;
+  color: white;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 0px;
+  margin-right: 10px;
+  font-weight: bolder;
 }
 
 .Volunteer .outsideDiv .innerDiv {
-    position: relative;
-    top: 40px;
-    left: 50px;
+  position: relative;
+  top: 40px;
+  left: 50px;
 }
 
 .Volunteer .outsideDiv .innerDiv .header {
-    display: flex;
+  display: flex;
 }
 
 .Volunteer .outsideDiv .innerDiv .header p {
-    font-size: 20px;
-    font-weight: bolder;
-    color: #042434;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #042434;
 }
 
 .Volunteer .outsideDiv .innerDiv .header div {
+<<<<<<< HEAD
     margin-top: -5px;
     padding: 10px 0px;
     text-align: center;
@@ -328,16 +329,32 @@
     right: 100px;
     font-weight: bolder;
     color: #03888F;
+=======
+  margin-top: -5px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 80px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  position: absolute;
+  right: 100px;
+  font-weight: bolder;
+  color: #03888F;
+>>>>>>> 3af015b3c583be2ab686de99701c480c7fef918c
 }
 
 .Volunteer .outsideDiv .innerDiv .contentBoxes {
-    position: relative;
-    margin-right: 100px;
-    height: 400px;
-    top: 20px;
+  position: relative;
+  margin-right: 100px;
+  height: 400px;
+  top: 20px;
 }
 
 .VolunteerContent {
+<<<<<<< HEAD
     display: flex;
     position: relative;
     border-radius: 5px;
@@ -354,56 +371,83 @@
     width: 100%;
     height: 100%;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.40);
+=======
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  left: 0%;
+  height: 60px;
+  background-color: white;
+}
+
+.VolunteerContent .ON {
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.40);
+>>>>>>> 3af015b3c583be2ab686de99701c480c7fef918c
 }
 
 .VolunteerContent .checkbox {
-    margin-left: 5px;
-    position: relative;
-    width: 42px;
-    height: 42px;
-    background-image: url("data:image/svg+xml,%3Csvg width='42' height='42' viewBox='0 0 42 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='40' height='40' rx='10' fill='white' stroke='%23116174' stroke-opacity='0.33'/%3E%3C/svg%3E%0A");
+  margin-left: 5px;
+  position: relative;
+  width: 42px;
+  height: 42px;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='42' viewBox='0 0 42 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='40' height='40' rx='10' fill='white' stroke='%23116174' stroke-opacity='0.33'/%3E%3C/svg%3E%0A");
 }
 
 .VolunteerContent .checkbox_on {
+<<<<<<< HEAD
     margin-left: 5px;
     position: relative;
     width: 40px;
     height: 40px;
     background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' rx='10' fill='%2361C7C9'/%3E%3Cpath d='M12 20.5L18 26.5L27 13' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+=======
+  margin-left: 5px;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' rx='10' fill='%2361C7C9'/%3E%3Cpath d='M12 20.5L18 26.5L27 13' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  ;
+>>>>>>> 3af015b3c583be2ab686de99701c480c7fef918c
 }
 
 .VolunteerContent label {
-    position: absolute;
-    bottom: 0;
-    top: 35%;
-    margin-left: 50px;
+  position: absolute;
+  bottom: 0;
+  top: 35%;
+  margin-left: 50px;
 }
 
 .VolunteerContent div {
-    position: absolute;
-    top: 10px;
-    right: 0;
+  position: absolute;
+  top: 10px;
+  right: 0;
 }
 
 .VolunteerContent div .about {
-    border: 1px solid #075061;
-    background-color: white;
-    color: #5c8c97;
+  border: 1px solid #075061;
+  background-color: white;
+  color: #5c8c97;
 }
 
 .VolunteerContent div .delete {
-    border: 1px solid #62a3a7;
-    background-color: #62a3a7;
-    color: white;
+  border: 1px solid #62a3a7;
+  background-color: #62a3a7;
+  color: white;
 }
 
 .VolunteerContent div button {
-    width: 80px;
-    border-radius: 10px;
-    border: none;
-    padding: 8px 0px;
-    margin-right: 10px;
-    font-weight: bolder;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 0px;
+  margin-right: 10px;
+  font-weight: bolder;
 }
 .Volunteer .outsideDiv .innerDiv input {
     margin-top: 10px;
@@ -465,47 +509,131 @@
 
 // MagjorAward
 .MajorAward {
-    height: 100%;
-}
+  height: 100%;
 
-.MajorAward .outsideDiv {
+  .outsideDiv {
     position: relative;
     margin: 40px 50px;
     background-color: #ffffff;
-}
 
-.MajorAward .outsideDiv .innerDiv {
-    position: relative;
-    top: 40px;
-    left: 20px;
-}
+    .innerDiv {
+      position: relative;
+      top: 40px;
+      left: 20px;
 
-.MajorAward .outsideDiv .innerDiv .header {
-    display: flex;
-}
+      .header {
+        display: flex;
 
-.MajorAward .outsideDiv .innerDiv .header p {
-    font-size: 20px;
-    font-weight: bolder;
-    color: #075061;
-}
+        p {
+          font-size: 20px;
+          font-weight: bolder;
+          color: #075061;
+        }
 
-.MajorAward .outsideDiv .innerDiv .header .score {
-    margin-top: -10px;
-    padding: 10px 0px;
-    text-align: center;
-    width: 80px;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
-    font-size: 14px;
-    position: absolute;
-    right: 20px;
-    font-weight: bolder;
-    color: #03888F;
-}
+        .score {
+          margin-top: -10px;
+          padding: 10px 0px;
+          text-align: center;
+          width: 80px;
+          background-color: white;
+          border: none;
+          border-radius: 10px;
+          box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+          font-size: 14px;
+          position: absolute;
+          right: 20px;
+          font-weight: bolder;
+          color: #03888F;
+        }
+      }
 
-.MajorAward .outsideDiv .innerDiv .contentBoxes {
-    margin-top: 20px;
+      .contentBoxes {
+        margin-top: 20px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 120%;
+
+        .addContents {
+          border: 2px solid #AEAEAE;
+          border-radius: 2px;
+          width: 210px;
+          height: 130px;
+          box-shadow: 0 3px 20px 0 rgba(#a4a4a4, 0.63);
+          margin-right: 60px;
+          margin-bottom: 40px;
+          text-align: center;
+        }
+
+        .contents {
+          border: 2px solid #AEAEAE;
+          border-radius: 2px;
+          width: 210px;
+          height: 130px;
+          box-shadow: 0 3px 20px 0 rgba(#a4a4a4, 0.63);
+          margin-right: 60px;
+          margin-bottom: 40px;
+
+          h2 {
+            font-size: 18px;
+            position: relative;
+            top: 25px;
+            left: 10px;
+            font-weight: bolder;
+            color: #595959;
+          }
+
+          span {
+            position: relative;
+            bottom: -45%;
+            left: 12px;
+            color: #aeaeae;
+            font-size: 13px;
+
+            svg {
+              position: absolute;
+              top: 2px;
+              left: 50px;
+            }
+          }
+
+          .head {
+            display: flex;
+            position: relative;
+            top: 15px;
+            left: 10px;
+            width: 100%;
+
+            .outofschool {
+              background-color: #b1d9f0;
+              border-radius: 10px;
+              width: 60px;
+              height: 10px;
+              text-align: center;
+              padding: 6px 0px;
+              font-size: 10px;
+              font-weight: bold;
+            }
+
+            .innerschool {
+              background-color: #f6ed96;
+              border-radius: 10px;
+              width: 60px;
+              height: 10px;
+              text-align: center;
+              padding: 6px 0px;
+              font-size: 10px;
+              font-weight: bold;
+            }
+
+            button {
+              position: absolute;
+              right: 15px;
+              background-color: rgba(#000000, 0);
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
 }
