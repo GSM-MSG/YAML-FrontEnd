@@ -1,4 +1,8 @@
 /* VISUAL */
+button {
+  cursor: pointer;
+}
+
 .page {
   margin-top: 35px;
   padding: 0;
@@ -643,6 +647,56 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+.foreign {
+  .outsideDiv {
+    height: 565px;
+    display: flex;
+
+    .contents {
+      margin-top: 80px;
+      margin-left: 15px;
+      width: 110px;
+      height: 50px;
+      background-color: white;
+      border: 2px solid #075061;
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: wrap;
+
+      p {
+        position: relative;
+        padding: 15px 0;
+        left: 10%;
+        width: 80px;
+      }
+
+      div {
+        margin-top: 2px;
+        text-align: center;
+        width: 100%;
+        background-color: white;
+        border: 2px solid #7BA6A7;
+        border-radius: 4px;
+
+        option {
+          cursor: pointer;
+          padding: 10px 0;
+        }
+      }
+
+      button {
+        outline: none;
+        position: relative;
+        left: 5px;
+        width: 10px;
+        height: 50px;
+        border: none;
+        background-color: rgba(#000000, 0);
       }
     }
   }
