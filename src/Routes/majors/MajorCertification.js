@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 function MajorCertification() {
+  const [add, setAdd] = useState(false);
   return <div className="MajorCertification">
     <div className="header">자격증</div>
     <div className="outsideDiv">
@@ -16,7 +17,9 @@ function MajorCertification() {
         <Contents text={'asdfasdf'} />
       </div>
       <div className="point">100점</div>
-      <div className="addContents">항목추가</div>
+      <div className="addContents" onClick={() => { setAdd((e) => !e) }}>항목추가</div>
+      {add && <div className="background" onClick={() => { setAdd(e => !e) }} />}
+
     </div>
   </div>;
 }

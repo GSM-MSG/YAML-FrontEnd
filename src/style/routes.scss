@@ -78,7 +78,7 @@ button {
   position: relative;
   display: block;
   left: 20%;
-  width: 110px;
+  width: 130px;
   display: flex;
 }
 
@@ -757,7 +757,7 @@ button {
 
 .MajorCertification {
   .header {
-    font-size: 20px;
+    font-size: 22px;
     color: #075061;
     font-weight: bold;
     margin: 60px 50px 0;
@@ -783,6 +783,14 @@ button {
       box-shadow: 0 2px 4px 0 rgba(#000000, 0.25);
     }
 
+    .background {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(#000000, 0.40);
+    }
+
     .addContents {
       position: absolute;
       text-align: center;
@@ -792,6 +800,7 @@ button {
       right: 50px;
       width: 120px;
       color: white;
+      cursor: pointer;
     }
 
     .contentsDiv {
@@ -842,6 +851,67 @@ button {
           background-color: rgba(#000000, 0);
           border: none;
         }
+      }
+    }
+  }
+}
+
+.Topcit {
+  .outsideDiv {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+
+    span {
+      width: 100%;
+      position: absolute;
+      text-align: center;
+    }
+
+    .contents {
+      margin: 40px;
+      width: 250px;
+      height: 50px;
+      background-color: white;
+      border: 2px solid #075061;
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: wrap;
+
+      p {
+        position: relative;
+        padding: 15px 0;
+        left: 10%;
+        width: 80px;
+      }
+
+      .chosen {
+        color: #03888F;
+        font-weight: bold;
+      }
+
+      div {
+        margin-top: 2px;
+        text-align: center;
+        width: 100%;
+        background-color: white;
+        border: 2px solid #7BA6A7;
+        border-radius: 4px;
+
+        option {
+          cursor: pointer;
+          padding: 10px 0;
+        }
+      }
+
+      button {
+        outline: none;
+        position: relative;
+        left: 130px;
+        width: 10px;
+        height: 50px;
+        border: none;
+        background-color: rgba(#000000, 0);
       }
     }
   }
