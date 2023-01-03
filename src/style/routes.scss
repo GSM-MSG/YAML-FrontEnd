@@ -862,6 +862,31 @@ button {
     left: 0%;
     right: 0%;
 
+    .buttons {
+      display: flex;
+      position: absolute;
+      right: 8%;
+      bottom: 10%;
+
+      .upload {
+        width: 150px;
+        color: white;
+        background-color: #62a3a7;
+      }
+
+      button {
+        width: 70px;
+        height: 35px;
+        margin-left: 20px;
+        color: #03888f;
+        font-weight: bold;
+        font-size: 15px;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+      }
+    }
+
     span {
       width: 100%;
       position: absolute;

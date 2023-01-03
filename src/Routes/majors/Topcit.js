@@ -26,7 +26,8 @@ function Topcit() {
       </div>
       <span>TOPCIT 점수에 따른 총점을 확인 해주세요.</span>
       <div className="buttons">
-
+        <button className="upload">성적인증서 업로드</button>
+        <button>100점</button>
       </div>
     </div>
   </div>;
